@@ -1,0 +1,80 @@
+body {
+    box-sizing: border-box;
+    background: #d3d3d3; /* Fondo gris claro */
+    font-family: sans-serif;
+    color: #333; /* Texto en gris oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor2 {
+    background: #ffffff; /* Fondo blanco para el formulario */
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #2e7d32; /* Verde oscuro */
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50; /* Verde */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+
+}
+
+button:hover {
+    background-color: #45a049; /* Verde más oscuro */
+    box-shadow: 0 0 20px rgba(94, 175, 76, 0.873);
+    font-weight: bold;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #4caf50; /* Verde */
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+.impresion:hover{
+
+font-size: 18px;
+font-weight: bold;
+box-shadow: 0 0 15px rgba(76, 175, 80, 0.5);
+}
